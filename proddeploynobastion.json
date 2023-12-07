@@ -79,20 +79,6 @@
        "description": "Subnet 3 Name"
      }
    },
-   "BastionsubnetPrefix": {
-     "type": "string",
-     "defaultValue": "10.0.7.0/26",
-     "metadata": {
-       "description": "Subnet 2 Prefix"
-     }
-   },
-   "BastionsubnetName": {
-     "type": "string",
-     "defaultValue": "AzureBastionSubnet",
-     "metadata": {
-       "description": "Bastion Subnet  Name"
-     }
-   },
    "RecoverserviceVaultName": {
      "type": "string",
      "defaultValue": "RSV-prod-eastus",
@@ -196,12 +182,6 @@
              "networkSecurityGroup": {
                 "id": "[resourceId('Microsoft.Network/networkSecurityGroups',parameters('NSG3'))]"
              }
-           }
-         },
-         {
-           "name": "[parameters('BastionsubnetName')]",
-           "properties": {
-             "addressPrefix": "[parameters('BastionsubnetPrefix')]"
            }
          }
        ]
