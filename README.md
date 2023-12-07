@@ -52,8 +52,8 @@ If the following templates are deployed as is they will deploy a /20 for all sub
 
 # Production without Bastion Subnet
 
-[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fdatapriserandydover%2Ffoundations2%2Fmain%2Fprodnobastiondeploy.json)
-[![Deploy To Azure Gov](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/deploytoazuregov.svg?sanitize=true)](https://portal.azure.us/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fdatapriserandydover%2Ffoundations2%2Fmain%2Fprodnobastiondeploy.json)
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fdatapriserandydover%2Ffoundations2%2Fmain%2Fproddeploynobastion.json)
+[![Deploy To Azure Gov](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/deploytoazuregov.svg?sanitize=true)](https://portal.azure.us/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fdatapriserandydover%2Ffoundations2%2Fmain%2Fproddeploynobastion.json)
 
 
 # Development Deployment
